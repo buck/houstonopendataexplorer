@@ -4,7 +4,7 @@
 fast GIS database, catalogs the rest, and lets anyone ask questions in plain English.**
 
 - **Live site (currently):** https://fasthouston.org (ask a question) · https://fasthouston.org/catalog (browse every source)
-- **Video:** [VIDEO LINK]
+- **Video demo:** https://youtu.be/JUjtuSwiVpk
 - Built for the [Houston Hackathon 2026](https://houstonhackathon2026.devpost.com).
 
 ![A flood question answered with a map](images/flood_map.jpg)
