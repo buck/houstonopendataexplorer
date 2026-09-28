@@ -1,0 +1,147 @@
+category,dataset,geometry,rows,description
+311 service requests,curated.service_request_311,Point,5592467,"Houston 311 service requests 2011-2026 (5.6M), typed columns, from the city's 311 archive"
+Boundaries & demographics,curated.boundary_city_limit,MultiPolygon,751,City of Houston limits
+Boundaries & demographics,curated.boundary_civic_club,MultiPolygon,470,Civic club (neighborhood association) areas
+Boundaries & demographics,curated.boundary_commissioner_precinct,MultiPolygon,4,Harris County commissioner precincts
+Boundaries & demographics,curated.boundary_constable_precinct,MultiPolygon,8,Harris County constable and justice-of-the-peace precincts (8)
+Boundaries & demographics,curated.boundary_council_district,MultiPolygon,11,11 city council districts A-K
+Boundaries & demographics,curated.boundary_county,MultiPolygon,13,Counties around Houston
+Boundaries & demographics,curated.boundary_esd_ems,MultiPolygon,13,Harris County Emergency Services Districts for EMS (13)
+Boundaries & demographics,curated.boundary_esd_fire,MultiPolygon,20,"Harris County Emergency Services Districts for fire (20), which fund fire service outside city limits"
+Boundaries & demographics,curated.boundary_etj,MultiPolygon,2,Extra-territorial jurisdiction + SB2038 area
+Boundaries & demographics,curated.boundary_fire_district,MultiPolygon,23,HFD fire districts
+Boundaries & demographics,curated.boundary_heavy_trash_area,MultiPolygon,1364,Heavy trash pickup areas and days
+Boundaries & demographics,curated.boundary_hisd_elementary,MultiPolygon,163,HISD elementary attendance zones
+Boundaries & demographics,curated.boundary_hisd_high,MultiPolygon,30,HISD high school attendance zones
+Boundaries & demographics,curated.boundary_hisd_middle,MultiPolygon,36,HISD middle school attendance zones
+Boundaries & demographics,curated.boundary_liftstation_service_area,MultiPolygon,389,Wastewater lift station service areas
+Boundaries & demographics,curated.boundary_park_sector,MultiPolygon,21,Parks department maintenance sectors
+Boundaries & demographics,curated.boundary_police_beat,MultiPolygon,121,"HPD police beats (121); attrs->>'Beats' is the beat code, e.g. '12D10'"
+Boundaries & demographics,curated.boundary_police_district,MultiPolygon,25,HPD patrol districts
+Boundaries & demographics,curated.boundary_police_division,MultiPolygon,17,HPD divisions
+Boundaries & demographics,curated.boundary_recycling_area,MultiPolygon,2377,Curbside recycling pickup areas
+Boundaries & demographics,curated.boundary_school_district,MultiPolygon,30,Independent school districts
+Boundaries & demographics,curated.boundary_super_neighborhood,MultiPolygon,88,Houston's 88 super neighborhoods (attrs->>'SNBNAME' upper case)
+Boundaries & demographics,curated.boundary_trash_area,MultiPolygon,1342,Automated trash pickup areas and days
+Boundaries & demographics,curated.boundary_voting_precinct,MultiPolygon,1165,Harris County voting precincts
+Boundaries & demographics,curated.boundary_wastewater_service_area,MultiPolygon,40,Wastewater treatment service areas
+Boundaries & demographics,curated.boundary_watershed,MultiPolygon,23,"The 23 HCFCD watersheds (Brays, Buffalo, Greens, White Oak, Sims, Halls, Hunting ...)"
+Boundaries & demographics,curated.boundary_zipcode,MultiPolygon,294,Houston-area zipcodes
+Boundaries & demographics,curated.census_tract,MultiPolygon,1598,"Census tract polygons (TIGER, 2020 tract definitions) for the 8-county Houston region"
+Boundaries & demographics,curated.census_tract_health,,1588,"CDC PLACES 2025 adult health estimates by census tract (diabetes, asthma, obesity, etc.)"
+Boundaries & demographics,curated.census_tract_profile,MultiPolygon,1598,Census tracts (8 Houston-area counties) with ACS 2020-2024 demographics and geometry
+Boundaries & demographics,curated.census_tract_svi,,1595,CDC Social Vulnerability Index 2022 by census tract
+Boundaries & demographics,explorer.boundary,MultiPolygon,1145,"Every named city boundary in one view (boundary_type, name, geom)"
+Boundaries & demographics,explorer.boundary_demographics,geometry,492,"Population, households and ACS demographics for super neighborhoods, council districts, ZIPs, police beats and districts"
+Environment,curated.env_air_sensor_summary,Point,30,"Harris County community air sensors (CAMP), one row per sensor with a year of PM2.5/PM10/VOC summary stats"
+Environment,curated.env_concrete_batch_plant,Point,129,"Permitted concrete batch plants in Harris County (129, TCEQ, 2021), a long-running neighborhood air-quality issue"
+Environment,curated.env_monitoring_well,Point,951,Monitoring wells
+Environment,curated.env_tri_release,Point,37234,"EPA Toxics Release Inventory 2014-2024, pounds released per facility x chemical x year"
+Facilities,curated.facility_after_school,Point,335,After-school program sites
+Facilities,curated.facility_airport,MultiPolygon,35,Airports and heliports
+Facilities,curated.facility_community_centers,Point,60,facility_community_centers
+Facilities,curated.facility_cool_centers_2021,Point,99,"City of Houston designated cool centers (99 libraries, community and multi-service centers), HARC 2021 list"
+Facilities,curated.facility_county_community_centers,Point,94,"Harris County community centers (94), which also serve as cooling and warming sites"
+Facilities,curated.facility_county_cooling_centers_2024,Point,63,"Harris County cooling center list, 2024 (63 sites)"
+Facilities,curated.facility_fire_stations,Point,94,"HFD fire stations (94, including 4 airport stations)"
+Facilities,curated.facility_fire_stations_county,Point,380,"All fire and EMS stations in Harris County (380) incl. HFD, suburban cities, ESDs and volunteer departments"
+Facilities,curated.facility_hcpl_libraries,Point,29,"Harris County Public Library (HCPL) branches (29), incl. Kingwood and Clear Lake (Freeman) inside Houston"
+Facilities,curated.facility_health_dept,Point,32,facility_health_dept
+Facilities,curated.facility_hospitals,Point,108,facility_hospitals
+Facilities,curated.facility_libraries,Point,43,"Houston Public Library (HPL, city) branches (43) with hours; also cooling centers in heat emergencies"
+Facilities,curated.facility_mental_health_clinic,Point,83,"Mental health clinics in Harris County (83), compiled by the county in 2026"
+Facilities,curated.facility_multi_service_centers,Point,11,"Multi-service centers, the city's standard cooling/warming centers and shelters (11)"
+Facilities,curated.facility_museum,Point,61,Museums
+Facilities,curated.facility_police_station,Point,18,HPD stations
+Facilities,curated.facility_police_storefront,Point,26,HPD storefront offices
+Facilities,curated.facility_recycling_center,Point,29,Recycling drop-off centers
+Facilities,curated.facility_school,Point,1541,"Schools (public, private, charter)"
+Facilities,curated.facility_school_entrance,Point,604,School primary entrances
+Facilities,curated.facility_trauma_center,Point,56,Trauma centers
+Facilities,curated.facility_workforce_office,Point,29,Workforce Solutions career offices
+Facilities,curated.park_city,MultiPolygon,380,City of Houston parks (polygons)
+Facilities,curated.park_county,MultiPolygon,214,"Harris County precinct parks (214 polygons) with acreage, trails and amenities"
+Facilities,curated.park_regional,MultiPolygon,2120,All park areas in the region (H-GAC)
+Flooding & hazards,curated.hazard_airport_noise_65dnl,MultiPolygon,3,Airport noise above 65 dB DNL
+Flooding & hazards,curated.hazard_detention_pond,MultiPolygon,201,"City stormwater detention ponds (attributes only, the city withholds the shapes)"
+Flooding & hazards,curated.hazard_evacuation_zone_zip,MultiPolygon,87,"Hurricane evacuation zones by ZIP code (Coastal, Zone A, B, C)"
+Flooding & hazards,curated.hazard_fema_flood_zone,MultiPolygon,19435,"FEMA flood hazard zones (100-year / 500-year floodplain) for Harris, Fort Bend and Montgomery counties"
+Flooding & hazards,curated.hazard_harvey_assistance,,3109,FEMA assistance after Hurricane Harvey by ZIP code (owners and renters)
+Flooding & hazards,curated.hazard_hwm_harvey_2017,Point,574,Hurricane Harvey high-water marks surveyed by HCFCD (574 points)
+Flooding & hazards,curated.hazard_hwm_imelda_2019,Point,203,Tropical Storm Imelda high-water marks (203 points)
+Flooding & hazards,curated.hazard_hwm_memorial_day_2015,Point,92,Memorial Day flood 2015 high-water marks (92 points)
+Flooding & hazards,curated.hazard_hwm_tax_day_2016,Point,295,Tax Day flood 2016 high-water marks (295 points)
+Flooding & hazards,curated.hazard_nfip_claim,Point,279507,"FEMA flood insurance claims 1978-present, 8 Houston-area counties (279k)"
+Heritage & culture,curated.heritage_conservation_district,MultiPolygon,7,Conservation districts
+Heritage & culture,curated.heritage_historic_district_city,MultiPolygon,23,City historic districts
+Heritage & culture,curated.heritage_historic_district_nrhp,MultiPolygon,12,National Register historic districts
+Heritage & culture,curated.heritage_landmark,Point,422,Historic sites and landmarks
+Infrastructure & drainage,curated.infra_adopt_drain_available,Point,81487,Adopt-a-Drain program: drains still available to adopt (81k)
+Infrastructure & drainage,curated.infra_adopt_drain_unavailable,Point,57372,Adopt-a-Drain: drains already adopted or not adoptable
+Infrastructure & drainage,curated.infra_bridge,Point,1404,Bridges
+Infrastructure & drainage,curated.infra_cell_tower,Point,720,Cell towers
+Infrastructure & drainage,curated.infra_drainage_area_cdp,MultiPolygon,4651,Drainage areas (catchments)
+Infrastructure & drainage,curated.infra_drainage_area_new,MultiPolygon,6366,New drainage areas
+Infrastructure & drainage,curated.infra_fire_hydrant,Point,61955,Fire hydrants
+Infrastructure & drainage,curated.infra_hcfcd_channel,MultiLineString,5851,"Harris County Flood Control District channels and bayous (5,851 segments)"
+Infrastructure & drainage,curated.infra_open_drain,MultiLineString,85902,Open drains: roadside ditches and channels
+Infrastructure & drainage,curated.infra_railroad,MultiLineString,1447,Railroads
+Infrastructure & drainage,curated.infra_storm_discharge_point,Point,17740,Storm sewer outfalls
+Infrastructure & drainage,curated.infra_stormdrain_inlets,Point,129989,"City storm drain inlets (130k) with type, owner and install date"
+Infrastructure & drainage,curated.infra_stormdrain_inlets_adoptable,Point,107260,The ~77k city-owned curb inlets (types B/BB) that residents could adopt
+Infrastructure & drainage,curated.infra_swmb_project,MultiPolygon,1141,Stormwater drainage capital projects
+Infrastructure & drainage,curated.infra_wastewater_facility,MultiLineString,77,Wastewater facility sites
+Permits & development,curated.dev_billboard,Point,1164,Permitted billboards
+Permits & development,curated.dev_billboard_clear_channel,Point,1571,Clear Channel medium billboards
+Permits & development,curated.dev_final_plat,MultiPolygon,26008,Recorded final plats (new subdivisions)
+Permits & development,curated.dev_mobility_permit,MultiLineString,1448,Mobility (lane closure) permits
+Permits & development,curated.dev_plat_application,MultiPolygon,37095,Plat applications by type
+Permits & development,curated.dev_scps_permit,Point,11103,SCPS permits issued in the past year
+Permits & development,curated.dev_sidewalk_permit,Point,10233,Sidewalk permits Oct 2020 - Jun 2023
+Planning rules,curated.zoning_prohibited_yard_parking,MultiPolygon,217,Prohibited yard parking areas
+Planning rules,curated.zoning_special_min_building_line,MultiPolygon,249,Special minimum building line blocks
+Planning rules,curated.zoning_special_min_lot_size,MultiPolygon,804,Special minimum lot size areas
+Planning rules,curated.zoning_tod_street,MultiLineString,7743,Transit-oriented development streets
+Planning rules,curated.zoning_walkable_places_street,MultiLineString,633,Walkable Places streets
+Policy & investment zones,curated.policy_complete_community,MultiPolygon,10,Complete Communities (mayoral revitalization)
+Policy & investment zones,curated.policy_hope_area,MultiPolygon,24,Houston Hope areas
+Policy & investment zones,curated.policy_lara_property,MultiPolygon,108,City-owned LARA lots available for redevelopment
+Policy & investment zones,curated.policy_major_activity_center,MultiPolygon,8,Major activity centers
+Policy & investment zones,curated.policy_management_district,MultiPolygon,75,Management districts (special taxing)
+Policy & investment zones,curated.policy_mud,MultiPolygon,743,Municipal Utility Districts
+Policy & investment zones,curated.policy_opportunity_zone,MultiPolygon,99,Federal Opportunity Zones
+Policy & investment zones,curated.policy_tirz,MultiPolygon,27,Tax Increment Reinvestment Zones
+Public safety,explorer.crime,Point,1255717,"HPD crime (NIBRS offenses) 2020-2024, one row per offense record, typed columns"
+Public safety,explorer.structural_fire,Point,7014,HFD structural fires 2015-2021 with date and building type
+Streets & traffic,curated.streets_active_pothole,Point,60,Currently open pothole reports
+Streets & traffic,curated.streets_adt_local,Point,139,Traffic counts (ADT) on local streets
+Streets & traffic,curated.streets_adt_major,Point,2359,Traffic counts (ADT) on major thoroughfares
+Streets & traffic,curated.streets_bike_ped_count,Point,858,Bike and pedestrian count locations
+Streets & traffic,curated.streets_mtfp,MultiLineString,26717,Major Thoroughfare and Freeway Plan
+Streets & traffic,curated.streets_pavement_rating,MultiLineString,75758,Pavement Condition Index (PCI 0-100) for 75k street segments
+Streets & traffic,curated.streets_sidewalk,MultiLineString,68965,Sidewalk inventory
+Streets & traffic,curated.streets_speed_limit,MultiLineString,9361,Posted speed limits by segment
+Streets & traffic,curated.streets_speed_study_post,Point,223,Speed studies after traffic calming
+Streets & traffic,curated.streets_speed_study_pre,Point,829,Speed studies before traffic calming
+Streets & traffic,curated.streets_stop_sign,Point,21272,Stop signs
+Streets & traffic,curated.streets_traffic_calming_device,Point,8431,Neighborhood traffic calming devices (speed humps etc.)
+Streets & traffic,curated.streets_traffic_signal,Point,2495,Traffic signals
+Traffic safety,curated.safety_bike_dangerous_roads,MultiLineString,174,Most dangerous roads for cyclists
+Traffic safety,curated.safety_county_high_injury,MultiLineString,3152,Harris County high-injury network (regional roads beyond the city's Vision Zero network)
+Traffic safety,curated.safety_crash_2025,Point,124649,"Every reported traffic crash in Harris County in 2025 (TxDOT CRIS, 124,649; 88% have coordinates)"
+Traffic safety,curated.safety_fatal_serious_crash_2019_2024,Point,3666,"Fatal and serious-injury crashes 2019-2024, WEST Harris County only (3,666; west of about Shepherd/Kirby)"
+Traffic safety,curated.safety_high_injury_network_2018,MultiLineString,906,"Vision Zero HIN, 2018 edition"
+Traffic safety,curated.safety_high_injury_network_2022,MultiLineString,1261,"Vision Zero High Injury Network 2022, the 6% of streets with 60% of deaths and serious injuries"
+Traffic safety,curated.safety_ped_dangerous_roads,MultiLineString,602,Most dangerous roads for pedestrians
+Traffic safety,curated.safety_safeclear_segment,MultiLineString,39,SAFEClear freeway tow segments
+Traffic safety,curated.safety_vulnerable_areas,MultiPolygon,216,Vision Zero most-vulnerable quarter of the city
+Transit & bikes,curated.bike_bikeshare_station,Point,140,BCycle bikeshare stations (program since shut down)
+Transit & bikes,curated.bike_bikeway,MultiLineString,6797,"Bikeways (existing, programmed and proposed)"
+Transit & bikes,curated.bike_critical_gap,MultiLineString,50,Critical gaps in the bike network
+Transit & bikes,curated.transit_bus_route,MultiLineString,127,METRO bus routes
+Transit & bikes,curated.transit_bus_stop,Point,9046,METRO bus stops
+Transit & bikes,curated.transit_center,Point,23,METRO transit centers
+Transit & bikes,curated.transit_park_and_ride,Point,28,METRO park & ride lots
+Transit & bikes,curated.transit_planned_corridor,MultiLineString,34,Planned transit corridors
+Transit & bikes,curated.transit_rail_line,MultiLineString,16,METRORail lines
+Transit & bikes,curated.transit_rail_station,Point,44,METRORail stations
